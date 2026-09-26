@@ -1,0 +1,5 @@
+Trunk Network - Layer 3
+Weights shape: (200, 200) (dtype: float32)
+Bias shape:    (200,) (dtype: float32)
+Weights min/max/mean: -2.978244e-01 / 3.237124e-01 / 3.420002e-04
+Bias min/max/mean:    -9.163945e-02 / 7.912036e-02 / -2.131112e-03

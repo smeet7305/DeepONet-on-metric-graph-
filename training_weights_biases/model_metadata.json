@@ -1,0 +1,24 @@
+{
+    "architecture": "Physics-Informed DeepONet (ICML 2025)",
+    "governing_pde": "Nonlinear Drift-Diffusion: dt(rho) = dx(eps * dx(rho) - nu * rho*(1-rho))",
+    "diffusion_eps": 0.1,
+    "hidden_width": 200,
+    "branch_net": {
+        "type": "ModifiedMLP",
+        "num_hidden_layers": 7,
+        "input_dim": 304,
+        "description": "Encodes 101 origin sensor values, 101 target sensor values, 101 init sensor values, 1 velocity"
+    },
+    "trunk_net": {
+        "type": "FourierFeatureMLP",
+        "num_hidden_layers": 6,
+        "input_dim": 2,
+        "description": "Maps space-time coordinates (t, x) using Fourier random frequency projections"
+    },
+    "activation": "tanh",
+    "models_exported": [
+        "inflow",
+        "inner",
+        "outflow"
+    ]
+}

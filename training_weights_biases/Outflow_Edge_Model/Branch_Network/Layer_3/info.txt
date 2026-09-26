@@ -1,0 +1,5 @@
+Branch Network - Layer 3
+Weights shape: (200, 200) (dtype: float32)
+Bias shape:    (200,) (dtype: float32)
+Weights min/max/mean: -6.218871e-01 / 5.524544e-01 / -8.148502e-04
+Bias min/max/mean:    -8.764207e-02 / 1.249149e-01 / 2.091424e-02

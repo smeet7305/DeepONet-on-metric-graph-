@@ -1,0 +1,5 @@
+Branch Network - Layer 4
+Weights shape: (200, 200) (dtype: float32)
+Bias shape:    (200,) (dtype: float32)
+Weights min/max/mean: -4.406835e-01 / 4.623822e-01 / 1.603166e-03
+Bias min/max/mean:    -4.391138e-02 / 1.109541e-01 / 3.007213e-02
